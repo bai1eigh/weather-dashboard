@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    height:90px;
+}
+
+.list-group{
+    width: 20%;
+    font-size: larger;
+    text-align: center;
+}
+
+
+.input-group{
+    width: 20%;
+}
+
+.jumbotron{
+position: relative;
+width: 78% ;
+height: 440px;
+bottom: 440px;
+left: 400px ;
+}
+
+.card{
+    position: relative;
+    bottom: 485px;
+    width: fit-content;
+}
+
+.search-location{
+position: relative;
+top: 80px;
+}
+
+h2{
+    font-weight: bolder;
+}

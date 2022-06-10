@@ -5,16 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://api.openweathermap.org/data/2.5/onecall?lat=33.4473&lon=84.1469&exclude=hourly,daily&appid={c2e06340cec451ae89feb0b682c2abf3}"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://api.openweathermap.org/data/2.5/onecall?lat=33.753746&lon=-84.386330&exclude=currently,minutely,hourly,alerts&appid=c2e06340cec451ae89feb0b682c2abf3"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Weather Dashboard</h1>
-    <h2>Search For City</h2>
+   <!-- As a heading -->
+<nav class="navbar bg-light">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Weather Dashboard</span>
+    </div>
+</nav>
 
-    <button>Search</button>
+<div class="search-location">
+    <h2>Search for a City:</h2>
+<!---search button-->
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search For City" aria-label="Search" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="button">Search</button>
+        </div>
+      </div>
 
-    <h3>5-Day Forecast</h3>
+<!---sidebar cities-->
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+         Atlanta
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">Austin</a>
+        <a href="#" class="list-group-item list-group-item-action">Chicago</a>
+        <a href="#" class="list-group-item list-group-item-action">New York</a>
+        <a href="#" class="list-group-item list-group-item-action">Orlando</a>
+        <a href="#" class="list-group-item list-group-item-action">San Francisco</a>
+        <a href="#" class="list-group-item list-group-item-action">Seattle</a>
+        <a href="#" class="list-group-item list-group-item-action">Denver</a>
+      </div>
+    </div>
+      <!---big weather pane-->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Fluid jumbotron</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+    </div>
+    
+        <!---forecast-->
+   
+      <h3>5-Day Forecast</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
 </body>
 <script src="./javascript/script.js"></script>
 <script src="./javascript/display-search.js"></script>
