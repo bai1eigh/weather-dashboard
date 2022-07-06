@@ -7,33 +7,33 @@ nav{
 }
 
 .list-group{
-    width: 20%;
+    width: 15%;
     font-size: larger;
     text-align: center;
 }
 
 
 .input-group{
-    width: 20%;
+    width: 15%;
 }
 
 .jumbotron{
 position: relative;
 width: 78% ;
 height: 440px;
-bottom: 440px;
+bottom: 100px;
 left: 400px ;
 }
 
 .card{
     position: relative;
-    bottom: 485px;
+    bottom: 400px;
     width: fit-content;
 }
 
 .search-location{
 position: relative;
-top: 80px;
+top: 70px;
 }
 
 h2{
