@@ -12,4 +12,4 @@ Weather Dashboard
 [Github](https://github.com/bai1eigh)
 
 ## Photo 
-![Photo](/weather-dashboard/assets/img/weather%20dashboard.PNG)
+[Photo](/weather-dashboard/assets/img/weatherapp.PNG)

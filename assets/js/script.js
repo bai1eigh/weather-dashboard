@@ -12,8 +12,7 @@ var historyCardEl = document.querySelector("#history")
 var trashEl = document.querySelector("#trash")
 var searchHistoryArray = []
 
-
-
+/*beginning of script*/
 var formSubmitHandler = function (event) {
     event.preventDefault();
     // get city name value from input element
