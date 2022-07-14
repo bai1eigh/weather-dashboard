@@ -5,10 +5,10 @@
 - From this project I familiarized myself with server-side APIs
 
 ## Application Link
-![Application](https://bai1eigh.github.io/weather-dashboard/)
+[Deployed Application](https://bai1eigh.github.io/weather-dashboard/)
 
 ## Github
-![Github](https://github.com/bai1eigh)
+[Github](https://github.com/bai1eigh)
 
 ## Photo 
-![Application]()
+![Photo]()
