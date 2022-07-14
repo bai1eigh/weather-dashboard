@@ -1,0 +1,13 @@
+var today = new Date(); //gives us the date
+var cityFormEl = document.getElementById('city-form') //variable for city search history
+var cityNameInputEl = document.getElementById('cityName') //input city names
+var currentWeatherEl = document.querySelector('#current-weather'); //current weather card body
+var currentWeatherCardEl = document.querySelector("#current-weather-card") //current weather card 
+var fiveDayCardEl = document.querySelector("#five-day-card"); //5 day weather
+var fiveDayEl = document.querySelector("#five-day-body"); //body of 5 day card
+var weatherStatusEl = document.querySelector('#weather-status'); //weather
+var searchEl = document.querySelector('#search'); //search box
+var historyButtonsEl = document.querySelector("#history-buttons") //city history button
+var historyCardEl = document.querySelector("#history") //city history card
+var trashEl = document.querySelector("#trash") //variable for deleting cities
+var searchHistoryArray = [] //creates array for search history
